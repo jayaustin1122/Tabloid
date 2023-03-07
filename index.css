@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Alfa";
+    src: url(aleo/AlfaSlabOne-Regular.ttf);
+} 
+@font-face {
+    font-family: "myriad";
+    src: url(aleo/Myriad\ Pro\ Bold\ Condensed.ttf);
+}
+@font-face {
+    font-family: "communist";
+    src: url(aleo/COMMI___.TTF);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    margin: 20px;
+}
+.main-header{
+    background-image: linear-gradient( yellow,white);
+    height: 40px;
+    font-size: 30px;
+    font-family: Arial;
+    text-align: center;
+    color: black;
+    padding: 0%;
+
+}
+.main-content{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100%,auto );
+
+}
+
+.main-content .standard{
+    background-image: linear-gradient( rgb(12, 122, 173), rgb(33, 167, 230));
+    font-weight: bolder;
+    color: white;
+    line-height: 0.7;
+    padding-top: 50px;
+
+    font-family: 'Alfa';
+    letter-spacing: 8px;
+    padding-bottom: 10px;
+}
+
+.standard .toptext{
+    font-size: 65px;
+    padding-left: 135px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 10px #000000;
+  
+}
+.standard .bottomtext{
+    font-size: 140px;
+    text-shadow: 2px 2px 10px #000000;
+    padding-left: 20px;
+}
+
+p{
+    margin-top: 20px;
+    font-size: 11px;
+    letter-spacing: -.5px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', sans-serif;
+    background-color: white;
+    color: black
+}
+.red{
+    background-color: red;
+    color: red;
+    font-size: 5px;
+}
+.modern{
+    padding-top: 20px;
+    background-color: white;
+    color: black;
+    letter-spacing: -1px;
+    font-weight: bold;
+    font-size: 110px;
+    line-height: 1;
+    font-family: 'myriad';
+}
+.groups{
+    padding-top: 40px;
+    background-color: white;
+    color: rgb(44, 41, 41);
+    letter-spacing: -1px;
+    font-size: 38px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+
+
+/*
+2
+*/
+
+.main-content .content-right{
+    background-color: rgb(255, 255, 255);
+    
+}
+.content-right .grey{
+    background-color: rgb(66, 66, 62);
+    color:  rgb(66, 66, 62);
+    font-size: 5px;
+    width: 100%;
+   
+}
+
+.strike{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 65px;
+    font-family: 'communist';
+}
