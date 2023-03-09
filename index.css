@@ -33,14 +33,47 @@ hr {
     border-top: 5px solid #8c8b8b;
 }
 .main-header{
-    background-image: linear-gradient( yellow,white);
-    height: 40px;
-    font-size: 30px;
-    font-family: Arial;
-    text-align: center;
-    color: black;
+    height: 100px;
     padding: 0%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
 
+}
+.mainheader1{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+.headeryellow{
+    width: 600px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.headeryellow1{
+
+    width: 80px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+}
+.headerlightblue{
+    width: 400px;
+    margin-left: 20px;
+    background-color: rgb(205, 239, 250);
+    display: flex;
+    flex-direction: row;
+}
+.twitter{
+    padding: 10px;
+    font-size: 15px;
+    font-family: "FontSpringLight";
+}
+.twitter1{
+    padding: 15px;
+    font-family: "FontSpringLight";
+    font-size: 15px;
 }
 .main-content{
     height: 400px;
@@ -49,7 +82,7 @@ hr {
     grid-template-columns: repeat(2,1fr);
     grid-gap: 10px;
     grid-auto-rows: minmax(100%,auto );
-
+    margin-top: 10px;
 }
 
 .main-content .standard{
@@ -291,7 +324,7 @@ p{
    
 }
 .srtike3{
-    width: 100%;
+    width: 600px;
     font-size: 12px;
     font-family: "FontSpringLight";
     color: rgb(0, 0, 0);
@@ -320,11 +353,45 @@ p{
 }
 .com-left{
     display: flex;
-    width: 200px;
+    width: 300px;
     margin-left: 20px;
     flex-direction: column;
 }
-.bigbox{
+.boxlayout{
+    border-color: #cf0101;
+    background-color: #ffffff;
     width: 100%;
-    background-color: #000000;
+    color: #cf0101;
+}
+.bigbox{
+
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 900px;
+    background-image: url("bg1.png"); 
+    background-repeat: no-repeat;
+    
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    margin-top: 450px;
+    background-image: url("bg2.png"); 
+    background-repeat: no-repeat;
+
+}
+.box1note{
+    width: 450px;
+    height: 500px;
+    margin-top: 300px;
+    background-color: white;
+  
+}
+.box2{
+
 }
