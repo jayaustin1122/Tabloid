@@ -33,7 +33,7 @@ hr {
     border-top: 5px solid #8c8b8b;
 }
 .main-header{
-    height: 100px;
+    height: 60px;
     padding: 0%;
     display: flex;
     flex-direction: column;
@@ -43,10 +43,10 @@ hr {
 .mainheader1{
     display: flex;
     flex-direction: row;
-    height: 80px;
+    height: 60px;
 }
 .headeryellow{
-    width: 600px;
+    width: 680px;
     background-color: yellow;
     display: flex;
     flex-direction: row;
@@ -59,11 +59,13 @@ hr {
     flex-direction: row;
 }
 .headerlightblue{
-    width: 400px;
-    margin-left: 20px;
+    width: 600px;
     background-color: rgb(205, 239, 250);
     display: flex;
     flex-direction: row;
+    font-family: "FontSpringLight";
+    padding: 11px;
+    line-height: 1;
 }
 .twitter{
     padding: 10px;
@@ -302,6 +304,7 @@ p{
     color: rgb(0, 0, 0);
     line-height: 1;
     text-align: center;
+    width: 480px;
 
 
 }
@@ -323,12 +326,14 @@ p{
     color: rgb(0, 0, 0);
    
 }
-.srtike3{
+sub{
     width: 600px;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "FontSpringLight";
     color: rgb(0, 0, 0);
     padding-left: 0%;
+    vertical-align: middle
+
   
 }
 .strike4{
@@ -336,9 +341,13 @@ p{
     font-size: 20px;
     font-family: 'FontSpring';
     color: rgb(45, 110, 230);
-    line-height: 1;
+    line-height: .8;
     padding-top: 10px;
-    width: 100%;
+    width: 480px;
+
+    
+ 
+
 }
 
 
@@ -364,25 +373,27 @@ p{
     color: #cf0101;
 }
 .bigbox{
-
-    margin-top: 20px;
-    width: 100%;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 1100px;
     display: flex;
-    flex-direction: row;
-    height: 900px;
-    background-image: url("bg1.png"); 
+    flex-direction: column;
+    height: 1000px;
+    
+    object-fit: fill;
     background-repeat: no-repeat;
+    border: 4px solid gold;
+    box-shadow: -.5em 0 .8em rgb(77, 77, 73);
+   
     
 }
 .box1{
     display: flex;
-    flex-direction: column;
-    background-color: aliceblue;
+    flex-direction: row;
     width: 500px;
-    height: 500px;
-    margin-top: 450px;
-    background-image: url("bg2.png"); 
+    height: 400px;
     background-repeat: no-repeat;
+
 
 }
 .box1note{
@@ -392,6 +403,76 @@ p{
     background-color: white;
   
 }
-.box2{
 
+
+
+.com1{
+    display: flex;
+    flex-direction: row;
+}
+.com1-1{
+    font-size: 100px;
+    color: gold;
+    margin-top: 20px;
+}
+.com1-2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-top: 43px;
+    line-height: 1.2;
+}
+.com3{
+    font-size: 22px;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+}
+img{
+    object-fit: fill;
+    margin: 10px;
+}
+.holder{
+
+    font-family: 'myriad';
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(2, 127, 185);
+    width: 100%;
+    border-color: #000000;
+    
+
+}
+.newtext{
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'myriad';
+    font-size: 50px;
+
+    color: rgb(2, 127, 185);
+    width: 600px;
+    border-color: #000000;
+    
+
+}
+.two{
+        display: flex;
+    flex-direction: row;
+    padding: 10px;
+  
+}
+.ww{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 20px;
+    width: 50%;
+    height: 400px;
+}
+.ww1{
+    font-family: 'Courier New', Courier, monospace;
+    color: #000000;
+    font-size: 20px;
+    margin-left: 20px;
+    width:250px;
+    width: 50%;
+    letter-spacing: -.1;
 }
